@@ -68,9 +68,6 @@ const Header = () => {
                                     <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
                                 </li>
                             )}
-                            <li className="nav-item">
-                                <Nav.Link as={Link} to="/about">About</Nav.Link>
-                            </li>
                         </ul>
                     </Nav>
                 </Navbar.Collapse>

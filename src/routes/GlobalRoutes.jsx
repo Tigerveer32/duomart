@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "../pages/Home"
 import Admin from "../pages/Admin"
-import About from "../pages/About"
 import Login from "../pages/Login"
 import PrivateRoutes from "./PrivateRoutes";
 import AdminRoutes from "./AdminRoutes";
@@ -26,7 +25,6 @@ const GlobalRoutes = () => {
             </Route>
             <Route path="/product-detail/:id" element={<ProductDetail />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/about" element={<About />} />
         </Routes>
     );
 }
